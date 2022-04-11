@@ -1,0 +1,24 @@
+/* Selector: universal */
+* {
+    background-color: papayawhip;  
+}
+
+/* Selector: de tipo */
+div {
+    background-color: yellowgreen;
+}
+
+/* Selector: de clase */
+.titulo {
+    background-color: dodgerblue;
+}
+
+/* Selector: de id */
+.subtitulo {
+    color: red;
+}
+
+/* Selector: de atributo */
+a[href="https://platzi.com"] {
+    color: violet;
+}
