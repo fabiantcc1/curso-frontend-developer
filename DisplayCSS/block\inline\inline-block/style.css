@@ -1,0 +1,45 @@
+/* 
+
+Diplay: block
+Se le pueden aplicar las propiedades:
+-> width
+-> height
+-> margin
+
+*/
+div {
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* 
+
+Diplay: inline
+NO se le pueden aplicar las propiedades:
+-> width
+-> height
+-> margin top y bottom
+
+*/
+
+a{
+    background-color: aqua;
+}
+
+/* 
+
+Diplay: inline-block
+Se le pueden aplicar las propiedades:
+-> width
+-> height
+-> margin top, bottom, left y right
+
+*/
+
+button{
+    background-color: mediumorchid;
+    width: 100px;
+    height: 30px;
+}
