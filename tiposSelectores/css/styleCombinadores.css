@@ -1,0 +1,45 @@
+/* 
+-> Combinador: Descendiente <-
+
+Seleccionan elementos descendientes de otros selectores.
+No es necesario que sean hijos directos.
+
+div p {
+    background-color: lime;
+}
+
+*/
+
+/* 
+-> Combinador: Hijo Directo <-
+
+Selecciona solo hijos directos.
+Los elementos descendientes que se encuentran más abajo en la jerarquía no se seleccionan.
+
+div > p {
+    background-color: violet;
+}
+
+*/
+
+/* 
+-> Combinador: Elemento Adyacente <-
+
+Selecciona al hermano que se encuentra justo después en el mismo nivel de la jerarquía.
+
+div + p {
+    background-color: red;
+}
+
+*/
+
+/* 
+-> Combinador: General de Hermanos <-
+
+Selecciona a los elementos hermanos incluso si no son directamente adyacentes.
+
+div ~ p {
+    background-color: lemongreen;
+}
+
+*/
