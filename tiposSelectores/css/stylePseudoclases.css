@@ -1,4 +1,4 @@
-
+/* PSEUDOCLASES */
 
 p:hover {
     color: skyblue;
@@ -7,6 +7,8 @@ p:hover {
 div p:nth-child(2){
     background-color: lime;
 }
+
+/* PSEUDOELEMNTOS */
 
 p::first-letter {
     color: teal;
