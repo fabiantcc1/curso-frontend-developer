@@ -1,0 +1,25 @@
+
+
+p:hover {
+    color: skyblue;
+}
+
+div p:nth-child(2){
+    background-color: lime;
+}
+
+p::first-letter {
+    color: teal;
+}
+
+p::before {
+    content: "🤔";
+}
+
+p::after {
+    content: "🎉";
+}
+
+::placeholder {
+    color: limegreen;
+}
