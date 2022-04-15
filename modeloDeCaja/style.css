@@ -1,0 +1,10 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    padding: 20px;
+    border: 1px solid salmon;
+    margin: 20px;
+    /* Esta linea sirve para seguir manteniendo el alto y el ancho dado*/
+    box-sizing: border-box;
+}

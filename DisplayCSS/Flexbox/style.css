@@ -1,0 +1,21 @@
+/*
+Cada que tengamos un contenedor padre se le agrega el display: flex
+*/
+.container{
+    height: 300px;
+    display: flex;
+    background-color: papayawhip;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.container .item:nth-child(2n + 1){
+    background-color: cyan;
+}
